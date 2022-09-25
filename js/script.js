@@ -1,5 +1,7 @@
-const API_KEY = 'AIzaSyA_x9_SbGczSsfX2RbGUpRj4_LdSMuOKgM';
 const URL = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&v=weekly`;
+
+let getLocationBtn = document.getElementById("getLocationBtn");
+
 
 // Initialize and add the map
 function initMap(lat, long) {
@@ -35,3 +37,5 @@ function showMap() {
 }
 
   //window.initMap = initMap;
+
+getLocationBtn.addEventListener('click', showMap);
