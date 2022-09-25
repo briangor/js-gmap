@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <title>JS Google Maps</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+  <h3>Google Maps</h3>
+  <!--The div element for the map -->
+  <label>Latitude:</label>
+  <input type="number" id="lat" value="-1.2921">
+  <label>longitude:</label>
+  <input type="number" id="long" value="36.8219">
+  <button type="button" onclick="showMap()">MAP</button>
+
+  <div id="map"></div>
+
+  <!-- 
+     The `defer` attribute causes the callback to execute after the full HTML
+     document has been parsed. For non-blocking uses, avoiding race conditions,
+     and consistent behavior across browsers, consider loading using Promises
+     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+  <script src="js/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_x9_SbGczSsfX2RbGUpRj4_LdSMuOKgM&v=weekly" defer></script>
+</body>
+
+</html>
