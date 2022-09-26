@@ -1,8 +1,9 @@
 // add your API_KEY and use it locally
+// import API_KEY from "./config"; //todo: add import for API_KEY
+
 //const URL = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&v=weekly`;
 
 let getLocationBtn = document.getElementById("getLocationBtn");
-
 
 // Initialize and add the map
 function initMap(lat, long) {
