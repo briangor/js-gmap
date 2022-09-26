@@ -1,4 +1,5 @@
-const URL = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&v=weekly`;
+// add your API_KEY and use it locally
+//const URL = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&v=weekly`;
 
 let getLocationBtn = document.getElementById("getLocationBtn");
 
@@ -25,6 +26,7 @@ function showMap() {
     let lat = document.getElementById('lat').value;
     let long = document.getElementById('long').value;
 
+    // todo: Dynamically add the mapping script to DOM
     // let script = document.createElement("script");
     // script.type = "text/javascript";
     // script.src = URL;
