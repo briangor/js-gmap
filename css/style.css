@@ -1,9 +1,26 @@
 /* Set the size of the div element that contains the map */
 #map {
   height: 400px;
-  /* The height is 400 pixels */
   width: 100%;
-  /* The width is the width of the web page */
+  margin: 2em 0;
+}
+
+.map-inputs {
+  margin: 0 0 2em 0;
+}
+
+#getLocationBtn {
+  width: 10rem;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: 1px solid green;
+  color: green;
+  background-color: transparent;
+}
+#getLocationBtn:hover {
+  color: rgb(21, 210, 4);
+  border-color: rgb(21, 210, 4);
 }
 
 /*# sourceMappingURL=style.css.map */
