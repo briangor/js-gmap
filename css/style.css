@@ -8,12 +8,19 @@
 .map-inputs {
   margin: 0 0 2em 0;
 }
+.map-inputs input {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  padding: 0 0.5rem;
+}
 
 #getLocationBtn {
   width: 10rem;
   height: 3rem;
   cursor: pointer;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   border: 1px solid green;
   color: green;
   background-color: transparent;
