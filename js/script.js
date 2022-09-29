@@ -9,7 +9,7 @@ let getLocationBtn = document.getElementById("getLocationBtn");
 function initMap(lat, long) {
     // The location of X
     const location = { lat: +lat, lng: +long };
-    console.log(location)
+    //console.log(location)
 
     // The map, centered at X
     const map = new google.maps.Map(document.getElementById("map"), {
