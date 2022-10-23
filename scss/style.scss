@@ -1,4 +1,8 @@
 /* Set the size of the div element that contains the map */
+$gray: gray;
+$green: green;
+$light-green: rgb(21, 210, 4);
+
 #map {
     height: 400px;
     width: 100%;
@@ -22,13 +26,13 @@
     height: 3rem;
     cursor: pointer;
     border-radius: .5rem;
-    border: 1px solid green;
-    color: green;
+    border: 1px solid $green;
+    color: $green;
     background-color: transparent;
 
     &:hover {
-        color: rgb(21, 210, 4);
-        border-color: rgb(21, 210, 4);
+        color: $light-green;
+        border-color: $light-green;
     }
 
 }
